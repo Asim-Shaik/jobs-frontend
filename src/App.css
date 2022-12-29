@@ -1,0 +1,34 @@
+#navbar-main {
+  position: absolute;
+  font-family: "Hind", sans-serif;
+  background-color: #fff;
+  border-bottom: 1px solid #d7e2e9;
+}
+
+#navbar-main .navbar-brand {
+  color: #96a4b1;
+}
+
+#navbar-main .navbar-toggler {
+  padding: 0.5rem;
+  border: none;
+}
+
+#navbar-main .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(68, 189, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#navbar-main .navbar-nav > li.nav-item > a {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#navbar-main .navbar-brand .fa-cube {
+  font-size: 2rem;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
