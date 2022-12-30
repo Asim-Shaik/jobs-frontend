@@ -21,7 +21,7 @@ const Job = () => {
     };
     getdata();
     console.log(stat);
-  }, [array, locationArray]);
+  }, []);
 
   useEffect(() => {
     const filter = () => {
