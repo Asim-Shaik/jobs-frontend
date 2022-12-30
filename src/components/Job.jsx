@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import JobCard from "./JobCard";
 import axios from "axios";
 
@@ -21,7 +21,7 @@ const Job = () => {
     };
     getdata();
     console.log(stat);
-  }, []);
+  }, [data]);
 
   useEffect(() => {
     const filter = () => {
